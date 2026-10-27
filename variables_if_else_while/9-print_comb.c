@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - compinaison des chiffres de 0 à 9
  *
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-int n,
+int n;
 
 for (n = 0; n <= 9; n++)
 {
@@ -18,5 +19,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return (0);
+return 0;
 }
