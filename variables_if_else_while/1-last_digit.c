@@ -24,7 +24,7 @@ if (last_digit > 5)
 {
 printf(" and is greater than 5\n");
 }
-else if (last_digit ==0)
+else if (last_digit == 0)
 {
 printf(" and is 0\n");
 }
