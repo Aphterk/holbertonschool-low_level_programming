@@ -18,11 +18,11 @@ n = rand() - RAND_MAX / 2;
 
 last_digit = n % 10;
 
-printf("Last digit of %d is %d, n, last_digit");
+printf("last digit of %d is %d, n, last_digit");
 
 if (Last_digit > 5)
 {
-printf(" and is greater than 5\n")
+printf(" and is greater than 5\n");
 }
 else if (Last_digit ==0)
 {
