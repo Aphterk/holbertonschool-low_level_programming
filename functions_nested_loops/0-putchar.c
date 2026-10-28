@@ -1,6 +1,7 @@
 #include "main.h"
 
-* main - affiche le texte 
+/**
+* main - affiche le texte
 *
 * Return: 0 toujours
 */
