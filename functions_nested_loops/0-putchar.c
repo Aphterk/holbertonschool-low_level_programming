@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main — Affiche "_putchar" suivi d'un retour à la ligne
- *
- * Return: 0 toujours
- */
+* main — Affiche "_putchar" suivi d'un retour à la ligne
+*
+* Return: 0 toujours
+*/
 int main(void)
 {
 _putchar('_');
