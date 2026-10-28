@@ -1,10 +1,30 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints all integers from n to 98
- * @n: starting number
+ * print_number - helper to print any positive or negative integer
+ * @n: number to print
  *
- * Description: Numbers separated by ", ", ends with new line
+ * Return: void
+ */
+static void print_number(int n)
+{
+	if (n < 0)
+	{
+		_putchar('-');
+		n = -n;
+	}
+
+	if (n / 10)
+		print_number(n / 10);
+
+	_putchar((n % 10) + '0');
+}
+
+/**
+ * print_to_98 - prints all integers from n to 98
+ * @n: starting integer
+ *
+ * Description: Numbers separated by ", ", ends with newline
  * Return: void
  */
 void print_to_98(int n)
@@ -20,20 +40,7 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (i < 0)
-			{
-				_putchar('-');
-				if (i <= -10)
-					_putchar((-i / 10) + '0');
-				_putchar((-i % 10) + '0');
-			}
-			else if (i < 10)
-				_putchar(i + '0');
-			else
-			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-			}
+			print_number(i);
 		}
 	}
 	else
@@ -45,20 +52,7 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-			if (i < 0)
-			{
-				_putchar('-');
-				if (i <= -10)
-					_putchar((-i / 10) + '0');
-				_putchar((-i % 10) + '0');
-			}
-			else if (i < 10)
-				_putchar(i + '0');
-			else
-			{
-				_putchar((i / 10) + '0');
-				_putchar((i % 10) + '0');
-			}
+			print_number(i);
 		}
 	}
 	_putchar('\n');
