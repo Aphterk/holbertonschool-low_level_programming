@@ -1,6 +1,6 @@
 #include "main.h"
 
- main affiche "_putchar"
+* main - affiche le texte 
 *
 * Return: 0 toujours
 */
