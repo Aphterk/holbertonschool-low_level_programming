@@ -1,7 +1,6 @@
 #include "main.h"
 
-/**
-* main — Affiche "_putchar" suivi d'un retour à la ligne
+ main affiche "_putchar"
 *
 * Return: 0 toujours
 */
