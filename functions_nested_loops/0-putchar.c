@@ -1,13 +1,13 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * _putchar — écrit le caractère c sur la sortie standard
- * @c: le caractère à afficher
+ * _putchar — Écrit le caractère c sur la sortie standard
+ * @c: Caractère à afficher
  *
- * Retourne : 1 en cas de succès
+ * Return: 1 si OK, -1 en cas d'erreur
  */
 int _putchar(char c)
 {
-    /* Implémentation fournie par l'environnement */
-    return (1);
+    return (write(1, &c, 1));
 }
