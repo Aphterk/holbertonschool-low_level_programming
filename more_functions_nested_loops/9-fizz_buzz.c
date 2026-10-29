@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
-* main -FizzBuzz: prints 1 to 100 with special rules
-*
 * fizzbuzz - prints numbers 1-100 with Fizz/Buzz/FizzBuzz rules
 *
 * Description: Multiples of 3 → Fizz, multiples of 5 → Buzz,
