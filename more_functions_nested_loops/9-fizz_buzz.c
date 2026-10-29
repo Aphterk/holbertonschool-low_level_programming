@@ -7,7 +7,7 @@
 * multiples of both → FizzBuzz. Each separated by space. Ends with newline.
 * Return: void
 */
-int main(void)
+void fizzbuzz(void)
 {
 int i;
 
