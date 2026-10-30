@@ -2,6 +2,10 @@
 
 void _putchar(char c);
 
+/**
+* print_triangle - prints a triangle using the # character
+* @size: height of the triangle
+*/
 void print_triangle(int size)
 {
 int row, space, hash;
